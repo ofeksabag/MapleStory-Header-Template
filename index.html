@@ -18,30 +18,37 @@
 </head>
 
 <body>
+
     <div id="toolbar">
-        <marquee id="toolbartext" width="100%"></marquee>
+        <marquee id="toolbarText" width="100%"></marquee>
     </div>
+
     <div id="maple">
-        <div id="page">
+
+        <div class="menu">
+
+            <div id="logo"></div>
+
             <div class="box">
-                <h2>Login Panel</h2>
-                <br />
-                <input id="username" placeholder="ID">
-                <br />
-                <input type="password" id="password" placeholder="PASSWORD">
-                <br />
-                <button id="btn">LOGIN</button>
-                <br />
-                Not registered yet? Click here!
-            </div>
-            <div class="box">
-                <h2>Server Info</h2>
-                <br />
-                <div class="details">
+
+                <div class="content">
+                    <h2>Login Panel</h2>
+                    <br />
+                    <input id="username" placeholder="ID">
+                    <br />
+                    <input type="password" id="password" placeholder="PASSWORD">
+                    <br />
+                    <button id="btn">LOGIN</button>
+                    <br />
+                    Not registered yet? Click here!
+                </div>
+
+                <div class="content">
+                    <h2>Server Info</h2>
                     Status: <span class="agree">Online</span>
                     <br />
                     Players Online: <b>1,034</b>
-                    <br /><br />
+                    <br />
                     Version: <b>V62</b>
                     <br />
                     Exp Rate: <b>1.5x</b>
@@ -52,41 +59,50 @@
                     <br />
                     Channels: <b>3</b>
                     <br />
-                    <b><span id="servertime">loading...</span></b>
+                    <b><span id="serverTime">loading...</span></b>
                 </div>
+
+                <div class="content">
+                    <div class="hot"><img src="img/coin.png" height="20"> NEW NEW NEW <img src="img/coin.png" height="20">
+                    </div>
+                    <div class="newItemsMove">
+                        <marquee class="items" width="100%" scrollamount="3">
+                            <img src="img/01122008.png">
+                            <img src="img/01122012.png">
+                            <img src="img/01102145.png">
+                            <img src="img/01082230.png">
+                            <img src="img/01012161.png">
+                            <img src="img/01012186.png">
+                            <img src="img/01112303.png">
+                            <img src="img/01003025.png">
+                            <img src="img/03010068.png">
+                            <img src="img/5000055.png">
+                            <img src="img/05010133.png">
+                            <img src="img/01112920.png">
+                            <img src="img/01122054.png">
+                            <img src="img/02040821.png">
+                        </marquee>
+                    </div>
+                </div>
+
             </div>
-            <div id="logo"></div>
-            <div class="newitems">
-                <div class="hot"><img src="img/coin.png" height="20"> NEW NEW NEW <img src="img/coin.png" height="20">
-                </div>
-                <div class="newitemsmove">
-                    <marquee class="items" width="100%" scrollamount="3">
-                        <img src="img/01122008.png">
-                        <img src="img/01122012.png">
-                        <img src="img/01102145.png">
-                        <img src="img/01082230.png">
-                        <img src="img/01012161.png">
-                        <img src="img/01012186.png">
-                        <img src="img/01112303.png">
-                        <img src="img/01003025.png">
-                        <img src="img/03010068.png">
-                        <img src="img/5000055.png">
-                        <img src="img/05010133.png">
-                        <img src="img/01112920.png">
-                        <img src="img/01122054.png">
-                        <img src="img/02040821.png">
-                    </marquee>
-                </div>
+
+        </div>
+
+        <div class="FlexEnd">
+            <div id="mapleTV">
+                <div id="adv1"></div>
+                <div id="adv2"></div>
             </div>
         </div>
-        <div id="mapletv">
-            <div id="adv1"></div>
-            <div id="adv2"></div>
-        </div>
+
     </div>
+
     <div id="grass"></div>
-    <div id="undergrass"></div>
+    <div id="underGrass"></div>
+
 </body>
+
 <script src="script.js"></script>
 
 </html>

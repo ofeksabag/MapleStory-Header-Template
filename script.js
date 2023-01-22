@@ -8,14 +8,14 @@ var mapletv2 = setInterval(function(){
 	$('#adv2').css('background-image', 'url("' + mapletv_gifs[Math.floor((Math.random() * 6) + 1)] + '")');
 }, 7000);
 
-$('#toolbartext').text('Welcome to MapleStory! We are an Old School Maplestory Server V62. Dont forget to join our Discord channel for updates.');
+$('#toolbarText').text('Welcome to MapleStory! We are an Old School Maplestory Server V62. Dont forget to join our Discord channel for updates.');
 
-setInterval(servertime, 1000);
+setInterval(serverTime, 1000);
 
-function servertime() {
+function serverTime() {
 	const d = new Date();
 	const month = ["January","February","March","April","May","June","July","August","September","October","November","December"];
-	$("#servertime").text(month[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear() + ' ' + d.toLocaleTimeString());
+	$("#serverTime").text(month[d.getMonth()] + ' ' + d.getDate() + ', ' + d.getFullYear() + ' ' + d.toLocaleTimeString());
 }
 
 function mo_open_menu() {
